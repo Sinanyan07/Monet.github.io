@@ -1,0 +1,2035 @@
+@media screen and (max-width: 1440px) {
+   .pageHeader {
+      padding-inline: 100px;
+   }
+
+
+   .footerPage {
+      padding-inline: 100px;
+   }
+
+   .leftBot span {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+
+   }
+
+   .leftMid span {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+   .midLeft h1 {
+      font-weight: 600;
+   }
+
+   .midLeft ul li a,
+   .midRight ul li a {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+
+   }
+
+   .logores14 {
+      display: block;
+   }
+
+   .logores19 {
+      display: none;
+   }
+
+   .rightTop {
+      max-width: 350px;
+      width: 100%;
+   }
+
+   .rightTop button {
+      max-width: 116px;
+      width: 100%;
+   }
+
+   .logores12 {
+      display: none;
+   }
+
+   .topRight {
+      max-width: 350px;
+      align-items: end;
+   }
+
+   .topRh1 {
+      max-width: 350px;
+      width: 100%;
+   }
+
+   .rightTop button {
+      font-size: 14px;
+   }
+
+   .sect_3 {
+      padding-inline: 100px;
+      height: 1796px;
+   }
+
+   .thrGrTopP,
+   .thrdGrMp2,
+   .thrdGrBp4 {
+      max-width: 606px;
+      width: 100%;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 34px;
+      letter-spacing: 0em;
+      text-align: left;
+   }
+
+   .thrdGrTP1,
+   .thrdGrMp3,
+   .thrdGrBp5 {
+      max-width: 606px;
+      width: 100%;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+   .GrMidInn {
+      max-width: 606px;
+      width: 100%;
+   }
+
+   .fifGrMid {
+      display: flex;
+      justify-content: center;
+   }
+
+   .firstGrTInn {
+      margin-top: 0px;
+   }
+
+   .steps-main {
+      margin-top: 61px;
+   }
+
+   .footerInn {
+      gap: 38px;
+   }
+
+
+   .sect_2 {
+      padding-inline: 200px;
+   }
+
+   .secGrInn {
+      margin-top: 207px;
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+
+
+   .sect_1 {
+      height: 1030px;
+   }
+
+   .firstGrTInn {
+      margin-top: -46px;
+   }
+
+   .steps-main {
+      margin-top: -15px;
+   }
+
+   .sect_2 {
+      padding-inline: 170px;
+   }
+
+   .sect_3 {
+      height: 1902px;
+   }
+
+   .thrGrTopP {
+      margin-top: 88px;
+      max-width: 506px;
+   }
+
+   .aboutMonet {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 968px) {
+
+   .head-innDv2,
+   .innDv3-left,
+   .head-innDv3 {
+      display: none;
+   }
+
+
+   .head-innDv3:hover {
+      cursor: pointer;
+   }
+
+   .imgFor,
+   .left-lang,
+   .innDv3-right {
+      display: block;
+   }
+
+
+   .footerPage {
+      height: 1097px;
+
+   }
+
+   .footLogo9 {
+      display: block;
+   }
+
+
+   .footerInn {
+      height: 100%;
+      gap: 10px;
+   }
+
+   .innTop {
+      height: 821px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      align-items: center;
+   }
+
+   .footerPage {
+      align-items: unset;
+   }
+
+   .logores19 {
+      display: block;
+   }
+
+   .logores12,
+   .leftMid,
+   .footLogo19,
+   .logores14 {
+      display: none;
+   }
+
+   .topLeft {
+      gap: 30px;
+   }
+
+   .topMid {
+      margin-top: 50px;
+
+   }
+
+   .topRight {
+      max-width: 768px;
+      width: 100%;
+      align-items: end;
+   }
+
+   .topRh1 {
+      max-width: 339px;
+      width: 100%;
+   }
+
+   .innMed {
+      margin-top: 50px;
+      max-width: 767px;
+      width: 100%;
+   }
+
+   .footerInn {
+      max-width: 768px;
+      width: 100%;
+   }
+
+   .topLeft {
+      max-width: 300px;
+      width: 100%;
+   }
+
+   .ibotInn {
+      max-width: 350px;
+      width: 100%;
+      height: 84px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+
+   .ibotInn span {
+      max-width: 210px;
+      width: 100%;
+      text-align: center;
+   }
+
+   .midLeft ul li a,
+   .midRight ul li a {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+   .res67-opening {
+      left: 80px;
+   }
+
+   .topRight {
+      margin-top: 50px;
+   }
+
+   .sect_3 {
+      height: 2135px;
+   }
+
+   .thrdGroupTop {
+      align-items: start;
+      height: 788px;
+   }
+
+   .thrGrTopP {
+      margin-top: 57px;
+   }
+
+   .thrGrTopP,
+   .thrdGrTP1,
+   .thrdGrMp2,
+   .thrdGrMp3,
+   .thrdGrBp4,
+   .thrdGrBp5 {
+      max-width: 633px;
+      width: 100%;
+   }
+
+   .thrdGroupMid {
+      align-items: start;
+      height: 681px;
+   }
+
+   .thrdGroupBot {
+      height: 666px;
+   }
+
+   .firstGrTInn h1 {
+      text-align: center;
+   }
+
+   .compani {
+      display: none;
+   }
+
+   .comp {
+      display: block;
+   }
+
+}
+
+
+
+
+@media screen and (max-width: 530px) {
+   .res67-opening {
+      /* right: 80px; */
+   }
+}
+
+
+
+@media screen and (max-width: 440px) {
+   .innMed {
+      margin-top: 300px;
+   }
+}
+
+@media screen and (max-width: 428px) {
+   .footerPage {
+      background-image: url(./img/footer4.svg);
+      background-size: cover;
+      padding-inline: 16px;
+   }
+
+   .footerInn {
+      max-width: 395px;
+      width: 100%;
+   }
+
+   .innMed {
+      margin-top: 287px;
+   }
+
+ 
+}
+
+/* header end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  sections */
+
+@media (max-width: 1920px) {
+   .firstGrTInn {
+      max-width: 507px;
+      width: 100%;
+   }
+
+   .aboutMonet {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+
+   }
+
+
+
+
+   .container-aboute-background {
+      background-size: 100%;
+   }
+
+
+   .bot-inn-h1 {
+      line-height: 20px;
+   }
+}
+
+@media (max-width: 1280px) {
+   .step-bot-inn {
+      max-width: 227px;
+      width: 100%;
+   }
+
+   .top-hr img {
+      margin-top: 29px;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px) {
+
+   .aboutMonet {
+      margin-top: 11px;
+      font-size: 18px;
+   }  
+
+
+   .wrapper_section00 {
+      max-width: 470px;
+      width: 100%;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+
+   }
+
+   .wrapper-work h1 {
+
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 42px;
+      letter-spacing: 0em;
+   }
+
+   .wrapper-header {
+      padding-inline: 101px;
+   }
+
+   .wrapper-text_info {
+      margin: 154px 102px;
+   }
+
+   .wrapper-work h1 {
+
+      text-align: center;
+   }
+
+   .container-wrap-colspan {
+      border: solid 1px;
+      margin-left: 40px;
+   }
+.downloadButt{
+   margin-top: 0px;
+}
+   .container-text-mony h1 {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 34px;
+      letter-spacing: 0em;
+      max-width: 606px;
+      width: 100%;
+   }
+
+   .container-text-mony span {
+
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+
+   }
+
+   .wrapper-steps-main {
+      padding-inline: 100px;
+   }
+
+   .footer {
+      padding-inline: 20px;
+   }
+
+   .footer-container-main {
+      gap: 0px;
+   }
+
+   .firstGroupTop {
+      padding-inline: 102px;
+
+   }
+
+   .secondGroup {
+      max-width: 1040px;
+      width: 100%;
+   }
+
+   .secGrInn {
+      max-width: 500px;
+      width: 100%;
+   }
+
+   .secGRH1 {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+   .spanPay {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+   .sect_4 {
+      padding-inline: 69px;
+   }
+
+   .enjoyMon {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: center;
+
+   }
+
+
+   .sect_5 {
+      padding-inline: 225px;
+   }
+
+
+   .ourFr {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: center;
+
+   }
+
+
+   .fifGrMid {
+      gap: 30px;
+      max-width: 990px;
+      width: 100%;
+      justify-content: center;
+   }
+
+   .sect_2 {
+      height: 714px;
+   }
+
+   .thrGrTopP {
+      margin-top: 141px;
+   }
+
+   .thrdGrTP1 {
+      max-width: 610px;
+   }
+
+   .thrdGrMp2 {
+      margin-top: 15px;
+   }
+
+   .GrMidInn {
+      gap: 27px;
+   }
+
+   .step-head-sp {
+      font-size: 30px;
+   }
+
+   .GrBotInn {
+      margin-top: 34px;
+   }
+
+   .forthGroup {
+      margin-top: 142px;
+   }
+
+   .forGILeft {
+      gap: 66px;
+      max-width: 310px;
+   }
+
+   .forGIRight {
+      gap: 28px;
+      max-width: 314px;
+
+   }
+
+   .sect_4 {
+      height: 699px;
+   }
+
+   .forGrInn {
+      gap: 110px;
+   }
+
+   .fifGroup {
+      gap: 56px;
+   }
+
+   .fifGrBtn {
+      font-weight: 700;
+
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1280px) {
+   .steps-main {
+      margin-top: 0px;
+   }
+
+   .sect_1 {
+      height: 1030px;
+   }
+
+   .top-hr {
+      max-width: 197px;
+      width: 100%;
+   }
+
+   .sect_2 {
+      padding-inline: 176px;
+      justify-content: flex-end;
+   }
+
+   .secondGroup {
+      max-width: 448px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+
+   }
+
+   .secGrInn {
+      margin-top: 206px;
+   }
+
+   .secGRH1 {
+      text-align: left;
+   }
+
+   .spanPay {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+   .thrGrTopP {
+      margin-top: 88px;
+   }
+
+
+   .sect_5 {
+      padding-inline: 145px;
+      height: 700px;
+   }
+
+   .thrdGrTP1 {
+      max-width: 540px;
+   }
+
+
+
+   .firstGrTInn {
+      margin-top: -45px;
+   }
+
+   .innBot {
+      justify-content: flex-end;
+   }
+
+   .innBot ul {
+      margin-top: -10px;
+   }
+
+   .steps-main {
+      margin-top: -15px;
+   }
+
+   .thrdGrMp2 {
+      margin-top: 34px;
+   }
+
+   .rightTop {
+      max-width: 339px;
+      width: 100%;
+   }
+
+   .logores12 {
+      display: block;
+   }
+
+   .logores14 {
+      display: none;
+   }
+
+   .topRh1 {
+      max-width: 339px;
+      width: 100%;
+   }
+
+   .topLeft {
+      max-width: 200px;
+      width: 100%;
+   }
+
+   .midLeft h1 {
+      font-size: 16px;
+   }
+
+   .midRight h1 {
+      font-size: 16px;
+   }
+
+   .res67-opening {
+      display: none;
+   }
+
+   .sect_3 {
+      height: 1902px;
+      padding-inline: 17px;
+   }
+
+   .thrGrTopP,
+   .thrdGrTP1,
+   .thrdGrMp2,
+   .thrdGrBp4,
+   .thrdGrBp5 {
+      max-width: 522px;
+      width: 100%;
+   }
+
+   .thrdGrMp3 {
+      max-width: 538px;
+      line-height: 23px;
+
+   }
+
+   .thrdGroupTop {
+      padding-left: 81px;
+   }
+
+   .GrBotInn {
+      margin-top: 36px;
+      margin-left: 81px;
+   }
+
+   .forGIMid {
+      gap: 10px;
+   }
+
+   .forGILeft {
+      gap: 51px;
+   }
+
+   .forGIRight {
+      gap: 14px;
+   }
+
+   .forGrInn {
+      gap: 40px;
+   }
+
+   .forthGroup {
+      margin-top: 130px;
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1175px) {
+   .firstGrTInn {
+      max-width: 507px;
+      width: 100%;
+   }
+   .GrMidInn {
+      padding-left: 74px;
+   }
+   .sect_2 {
+      padding-inline: 46px;
+   }  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 968px) {
+   .sect_1 {
+      height: 2013px;
+   }
+
+   .firstGroupTop {
+      justify-content: center;
+      height: 975px;
+      align-items: flex-end;
+      margin-bottom: 83px;
+   }
+
+   .firstGrTInn {
+
+      min-height: 340px;
+      justify-content: center;
+      margin-bottom: 84px;
+      gap: 24px;
+   }
+
+   .welcome {
+      font-size: 38px;
+      font-weight: 500;
+      line-height: 46px;
+      letter-spacing: 0em;
+      text-align: center;
+
+
+
+   }
+
+   .secondGroup {
+
+      align-items: flex-start;
+
+   }
+
+   .monetP {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 59px;
+      letter-spacing: 0em;
+      text-align: center;
+
+
+   }
+
+   .aboutMonet {
+      display: none;
+   }
+
+   .aboutMonet1 {
+      margin-top: 23px;
+      display: block;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #F6F6F6;
+   }
+
+   .downloadButt {
+      margin-top: 17px;
+   }
+
+   .steps-main {
+      height: 80px;
+   }
+
+   .downloadButt {
+      margin: auto;
+      height: 44px;
+      margin-top: 17px;
+   }
+
+   .wrapper-steps-main {
+      height: 955px;
+   }
+
+   .wrapper-step-inn {
+      height: 928px;
+   }
+
+   .inn-step-bot {
+      max-width: 397px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      margin-top: 55px;
+   }
+
+   .step-bot-inn {
+      max-width: 355px;
+      width: 100%;
+      gap: 4px;
+   }
+
+   .top-hr {
+      max-width: 232px;
+      width: 100%;
+   }
+
+   .h11 {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+      display: none;
+   }
+
+   .bot-inn-h11 {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+      display: block;
+      color: #FFFFFFB2;
+   }
+
+   .bot-inn1 {
+      margin-top: 27px;
+   }
+
+   .bot-inn1 {
+      margin-top: 0px;
+      gap: 14px;
+   }
+
+   .bot-inn2 {
+      margin-top: -9px;
+   }
+
+   .bot-inn3 {
+      margin-top: 15px;
+      gap: 9px;
+   }
+
+   .sect_2 {
+      justify-content: center;
+   }
+
+   .secGRH1 {
+      text-align: center;
+   }
+
+   .secGrInn {
+      margin-top: 50px;
+      gap: 38px;
+   }
+
+   .thrGrTopP {
+      max-width: 587px;
+      margin-top: 60px;
+   }
+
+   .spanPay {
+      font-size: 20px;
+      line-height: 24px;
+
+   }
+
+   .spanPay {
+      text-align: center;
+   }
+
+   .top-hr img {
+      margin-top: 0px;
+   }
+
+   .sect_2 {
+      padding-inline: 150px;
+      height: 700px;
+   }
+
+   .sect_4 {
+      min-height: 1024px;
+      padding-inline: 193px;
+      align-items: center;
+   }
+
+   .forthGroup {
+      max-width: 582px;
+      width: 100%;
+      min-height: 896px;
+      margin-top: 15px;
+      gap: 84px;
+   }
+
+   .forGrInn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+   }
+
+   .forGILeft,
+   .forGIMid,
+   .forGIRight {
+      gap: 30px;
+   }
+
+
+
+   .ourFr {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 40px;
+      letter-spacing: 0em;
+      text-align: center;
+
+   }
+
+
+
+   .sect_5 {
+      padding-inline: 156px;
+      height: 430px;
+   }
+
+   .fifGrMid {
+      margin-top: -5px;
+   }
+
+   .fifGrBtn {
+      max-width: 234px;
+      width: 100%;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0em;
+      margin-top: 1px;
+   }
+
+   .fifGroup {
+      margin-top: 118px;
+      gap: 0px;
+      max-width: 428px;
+   }
+
+
+
+
+
+   .image_none {
+      display: block;
+   }
+
+   .steps-main {
+      margin-top: -25px;
+   }
+
+   .thrdGrTP111 {
+      display: block;
+      max-width: 650px;
+      width: 100%;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FFFFFFB2;
+   }
+
+   .thrdGrTP1 {
+      display: none;
+   }
+
+   .sect_3 {
+      height: 2135px;
+   }
+
+   .thrdGrMp2 {
+      display: none;
+   }
+
+   .thrdGrMp22 {
+      display: block;
+
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 34px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #B3DD62;
+   }
+
+   .GrMidInn {
+      max-width: 725px;
+   }
+
+   .thrdGrMp3 {
+      max-width: 650px;
+   }
+
+   .GrBotInn {
+      margin-top: 0px;
+      margin-left: 81px;
+   }
+
+   .thrdGrBp4 {
+      max-width: 628px;
+   }
+
+   .thrdGrBp5 {
+      max-width: 644px;
+   }
+
+   .thrdGroupTop {
+      gap: 17px;
+   }
+
+   .GrMidInn {
+      padding-left: 81px;
+   }
+
+}
+
+@media screen and (max-width: 760px) {
+   .sect_4 {
+      min-height: 1124px;
+      padding-inline: 153px;
+      align-items: center;
+   }
+}
+
+
+@media screen and (max-width: 678px) {
+   .sect_1 {
+      height: 2021px;
+   }
+
+   .firstGroupTop {
+      padding-inline: 64px;
+   }
+
+   .steps-main {
+      min-height: 131px;
+   }
+
+   .step-head-sp {
+      font-size: 32px;
+      text-align: center;
+      margin-top: 25px;
+   }
+
+   .sect_2 {
+      padding-inline: 115px;
+   }
+
+   .secGRH1,
+   .spanPay {
+      max-width: 448px;
+      width: 100%;
+   }
+
+   .sect_3 {
+      height: 2214px;
+
+   }
+
+   .thrGrTopP,
+   .thrdGrTP1,
+   .thrdGrMp2,
+   .thrdGrMp3,
+   .thrdGrBp4,
+   .thrdGrBp5 {
+      max-width: 476px;
+      width: 100%;
+   }
+
+   .thrGrTopP{
+      max-width: 500px;
+      margin-top: 50px;
+   }
+   .thrdGrTP111 {
+      max-width: 500px;
+   }
+   .sect_4 {
+      min-height: 1024px;
+      padding-inline: 64px;
+      align-items: center;
+   }
+
+   .sect_5 {
+      height: 430px;
+   }
+
+   .sect_2 {
+      height: 700px;
+   }
+.firstGrTInn {
+   margin-bottom: 93px;
+}
+.step-header{
+   margin-top: 10px;
+}
+.inn-step-bot{
+   margin-top:  60px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 528px) {
+   .sect_3 {
+      padding-inline: 54px;
+   }
+
+
+
+   .thrdGrTP1,
+   .thrdGrBp5 {
+      font-size: 17px;
+   }
+
+   .sect_5 {
+      height: 430px;
+   }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 428px) {
+   .sect_1 {
+      height: 2028px;
+   }
+
+   .firstGroupTop,
+   .wrapper-steps-main {
+      padding-inline: 16px;
+      margin: auto;
+   }
+
+   .wrapper-steps-main {
+      max-width: 396px;
+      width: 100%;
+      height: 1038px;
+   }
+   .firstGrTInn h1 {
+      text-align: left;
+      margin-top: 36px;
+   }
+   .steps-main {
+      max-width: 396px;
+      width: 100%;
+   }
+
+   .firstGrTInn {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .welcome {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 59px;
+      letter-spacing: 0em;
+      text-align: left;
+
+
+   }
+
+   .sect_2 {
+      height: 725px;
+      padding-inline: 16px;
+      font-size: 26px;
+   }
+
+   .monetP {
+      font-size: 38px;
+      font-weight: 500;
+      line-height: 46px;
+      letter-spacing: 0em;
+      text-align: left;
+   }
+
+   .aboutMonet {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+   .firstGrTInn {
+      height:  440px;
+      margin-bottom: 51px;
+   }
+
+   .secondGroup {
+      max-width: 396px;
+      width: 100%;
+
+   }
+
+   .secGrInn {
+      gap: 30px;
+      height: 204px;
+      margin-top: 60px;
+   }
+
+   .secGRH1 {
+      text-align: left;
+   }
+
+   .spanPay {
+      text-align: left;
+   }
+
+   .downloadButt {
+      margin: unset;
+   }
+
+   .step-header {
+      margin-top: 100px;
+   }
+
+   .step-head-sp {
+      text-align: center;
+      max-width: 347px;
+      width: 100%;
+      font-size: 30px;
+      margin-top: 0px;
+   }
+   .wrapper-step-inn{
+      margin-top: -25px;
+   }
+
+   .steps-main {
+      gap: 26px;
+   }
+
+
+
+   .sect_4 {
+      padding-inline: 16px;
+   }
+
+
+   .sect_5 {
+      height: 494px;
+      padding-inline: 18px;
+   }
+
+   .fifGrBtn {
+      max-width: 293px;
+      width: 100%;
+   }
+
+
+   .sect_3 {
+      height: 2454px;
+      padding-inline: 16px;
+   }
+
+
+
+   .monetP {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 59px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+   .aboutMonet1 {
+      margin-bottom: 15px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: left;
+   }
+
+
+   .spanPay {
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+
+  .thrdGroupTop {
+   padding-left: 0px;
+}
+
+.thrGrTopP {
+   margin-top: 59px;
+}
+
+.GrMidInn {
+   padding-left: 0px;
+   max-width: 393px;
+
+}
+
+.thrdGroupTop {
+   height: 903px;
+}
+.thrdGrMp22{
+   margin-top: 0;
+}
+.thrdGroupMid {
+   height: 770px;
+}
+.GrBotInn {
+   max-width: 376px;
+   margin-top: 0px;
+   margin-left: 0px;
+}
+.forthGroup{
+   gap: 56px;
+}
+.fifGroup {
+   margin-top: 56px;
+   gap: 0px;
+}
+   
+.forthGroup {
+   margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1920px) and (min-width:1440px) {
+   .footerPage {
+      background-size: cover;
+   }
+
+
+
+}
+
+@media screen and (max-width:1440px) and (min-width:1280px) {
+   .footerPage {
+      background-image: url(./img/Footer14.png);
+      background-size: cover;
+   }
+
+   .sect_1 {
+      background-image: url(./img/sect_1_14.svg);
+   }
+
+   .sect_2 {
+      background-image: url(./img/sect_2_14.svg);
+   }
+
+   .sect_3 {
+      background-image: url(./img/sect_3_14.svg);
+   }
+
+   .sect_4 {
+      background-image: url(./img/sect_4_14.svg);
+   }
+
+   .sect_5 {
+      background-image: url(./img/sect_5_14.svg);
+   }
+
+
+}
+
+@media screen and (max-width:1280px) and (min-width:968px) {
+   .footerPage {
+      background-image: url(./img/Footer12.svg);
+      background-size: cover;
+   }
+
+   .sect_1 {
+      background-image: url(./img/sect_1_12.svg);
+   }
+
+   .sect_2 {
+      background-image: url(./img/sect_2_12.svg);
+   }
+
+   .sect_3 {
+      background-image: url(./img/sect_3_12.svg);
+   }
+
+   .sect_4 {
+      background-image: url(./img/sect_4_12.svg);
+   }
+
+   .sect_5 {
+      background-image: url(./img/sect_5_12.svg);
+   }
+
+}
+
+@media screen and (max-width:968px) and (min-width:678px) {
+   .footerPage {
+      background-image: url(./img/footer9.svg);
+      background-size: cover;
+   }
+
+   .sect_1 {
+      background-image: url(./img/sect_1_9.svg);
+   }
+
+   .sect_2 {
+      background-image: url(./img/sect_2_9.svg);
+   }
+
+   .sect_3 {
+      background-image: url(./img/sect_3_9.svg);
+   }
+
+   .sect_4 {
+      background-image: url(./img/sect_4_9.svg);
+   }
+
+   .sect_5 {
+      background-image: url(./img/sect_5_922.svg);
+   }
+
+}
+
+
+@media screen and (max-width:678px) and (min-width:428px) {
+   .sect_1 {
+      background-image: url(./img/sect_1_6.svg);
+   }
+
+   .sect_2 {
+      background-image: url(./img/sect_2_6.svg);
+   }
+
+   .sect_3 {
+      background-image: url(./img/sect_3_6.svg);
+   }
+
+   .sect_4 {
+      background-image: url(./img/sect_4_6.svg);
+   }
+
+   .sect_5 {
+      background-image: url(./img/sect_5_6.svg);
+   }
+}
+
+
+@media screen and (max-width:428px) {
+   .sect_1 {
+      background-image: url(./img/sect_1_4.svg);
+   }
+
+   .sect_2 {
+      background-image: url(./img/sect_2_4.svg);
+   }
+
+   .sect_3 {
+      background-image: url(./img/sect_3_4.svg);
+   }
+
+   .sect_4 {
+      background-image: url(./img/sect_4_4.svg);
+   }
+
+   .sect_5 {
+      background-image: url(./img/sect_5_4.svg);
+   }
+}
+
+
+@media screen and (max-width: 320px) {
+   .sect_1 {
+      height: 2090px;
+   }
+
+   .sect_2 {
+      height: 601px;
+   }
+
+   .sect_3 {
+      height: 2054px;
+   }
+
+   .sect_4 {
+      height: 1024px;
+   }
+
+   .sect_5 {
+      height: 651px;
+   }
+   .sect_1 {
+      background-image: url(./img/sect_3-1.svg);
+   }
+
+   .sect_2 {
+      background-image: url(./img/sect_3-2.svg);
+   }
+
+   .sect_3 {
+      background-image: url(./img/sect_3-3.svg);
+   }
+
+   .sect_4 {
+      background-image: url(./img/sect_3-4.svg);
+   }
+
+   .sect_5 {
+      background-image: url(./img/sect_3-5.svg);
+   }
+
+
+
+   .firstGrTInn {
+      height: 440px;
+      margin-bottom: 160px;
+  }
+.step-head-sp{
+font-size: 28px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 25px;
+}
+.inn-step-bot{
+   gap: 35px;
+}
+.secGRH1{
+font-size: 28px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.secondGroup {
+   max-width: 288px;
+   width: 100%;
+}
+.secGrInn {
+   max-width: 288px;
+   width: 100%;
+}
+.thrGrTopP, .thrdGrMp22, .thrdGrBp4{
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 50px;
+}
+.thrdGrTP111, .thrdGrMp3, .thrdGrBp5 {
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.thrdGrMp22{
+   margin-top: -12px;
+}
+
+.GrMidInn {
+   gap: 8px;
+}
+.thrdGrBp4{
+   margin-top: -62px;
+}
+.enjoyMon{
+font-size: 26px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.forArticl{
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.forGrInn {
+   gap: 78px;
+}
+.forGIMid {
+   gap: 10px;
+}
+.forGILeft {
+   gap: 38px;
+}
+.forGIRight{
+   gap: 42px;
+}
+
+
+.ourFr{
+font-size: 26px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.compRes{
+   display: block;
+}
+.comp{
+   display: none;
+}
+.fifGrMid {
+   gap: 30px;
+   max-width: 245px;
+}
+
+
+
+
+
+}

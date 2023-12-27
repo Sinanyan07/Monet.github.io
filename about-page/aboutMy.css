@@ -1,0 +1,1579 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "Montserratarm";
+    src: url(../fonts/fonts/Montserratarm-Medium/Montserratarm-Medium.ttf);
+}
+
+body {
+    font-family: "Montserratarm";
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+.first-section-ab {
+    width: 100%;
+    height: 802px;
+    /* max-width: 1920px;
+    min-height: 42vw; */
+    background-image: url(../img/section-about-first-bg.svg);
+    /* background-size: 102% 102%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-top: -8px; */
+}
+
+.all-about {
+    display: flex;
+    gap: 16px;
+}
+.allAboutA{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    letter-spacing: 0.01em;
+    text-align: start;
+    color: #FFFFFF;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.all-about {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    letter-spacing: 0.01em;
+    text-align: start;
+    color: #FFFFFF;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+
+.content-secton-first {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    top: 30px;
+    padding-left: 248px;
+}
+
+.low-text {
+    position: relative;
+    top: 10px;
+}
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container-about h1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #FFFFFF;
+}
+
+.container-about h4 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #FFFFFF;
+}
+
+.container-about span {
+    width: 1001px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F2F2B2;
+}
+
+
+.second-section-ab {
+    width: 100%;
+    height: 1614px;
+    /* max-width: 1920px; */
+    /* min-height: 84.063vw; */
+    background-image: url(../img/second-section-bg.svg);
+    /* background-size: 102% 102%; */
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-top: -8px; */
+}
+
+.content-secton-second {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 125px;
+    gap: 2.8vw;
+}
+
+.history-contatnt {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-self: start;
+    padding-left: 249px;
+    margin-top: 7px;
+}
+
+.history-contatnt h1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #F6F6F6;
+}
+
+.history-contatnt h4 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #FF7233;
+}
+
+.history-contatnt span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #F6F6F6B2;
+    width: 772px;
+    height: 60px;
+}
+
+
+.history-logo-container {
+    width: 909px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.history-logo-container img {
+    width: 47.292vw;
+    height: 10.396vw;
+    align-self: center;
+}
+
+.history-logo-container h1 {
+    font-size: 3.333vw;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 1.5em;
+    width: 32.469vw;
+    align-self: center;
+    color: #F2F2F2;
+}
+
+.history-symbolism {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    justify-content: start;
+
+}
+
+.history-symbolism h4 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #FF7233;
+    padding-left: 254px;
+    margin-top: 40px;
+}
+
+.history-symbolism img {
+    align-self: center;
+    width: 26.042vw;
+    height: 13.438vw;
+}
+
+.low-block-symbolism {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.circel {
+    width: 283px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.circel img {
+    width: 7.708vw;
+    height: 7.708vw;
+    align-self: center;
+}
+
+.circel h1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #F6F6F6;
+}
+
+.circel span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-self: center;
+    color: #F6F6F6B2;
+}
+
+.arrows {
+    width: 239px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.arrows img {
+    width: 7.708vw;
+    height: 7.708vw;
+    align-self: center;
+}
+
+.arrows h1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #F6F6F6;
+}
+
+
+.arrows span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-self: center;
+    color: #F6F6F6B2;
+}
+
+.letter-m {
+    width: 283px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.letter-m img {
+    width: 6.875vw;
+    height: 9.167vw;
+    align-self: center;
+    padding-left: 19px;
+}
+
+
+.letter-m h1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #F6F6F6;
+}
+
+.letter-m span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-self: center;
+    color: #F6F6F6B2;
+}
+
+
+
+.third-section-ab {
+    width: 100%;
+    height: 1189px;
+    /* max-width: 1920px; */
+    /* min-height: 61.927vw; */
+    background-image: url(../img/section-third.svg);
+    /* background-size: 100% 102%; */
+    /* background-size: 100% 102%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-top: -8px; */
+}
+
+
+.third-section-content {
+    width: 100%;
+    padding-left: 248px;
+    position: relative;
+    top: calc(6.167vw + 10px);
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+
+}
+
+.third-section-content h1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #F6F6F6;
+}
+
+
+.third-section-content ul li a {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #F6F6F6B2;
+}
+
+.third-section-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: calc(2px + 0.885vw);
+}
+
+
+
+
+
+.quarters-section-ab {
+    width: 100%;
+    height: 790px;
+    /* max-width: 1920px; */
+    /* min-height: 41.146vw; */
+    background-image: url(../img/quarters-section-ab.svg);
+    /* background-size: 100% 102%; */
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -8px;
+}
+
+.contact-details {
+    width: 100%;
+    padding-left: 245px;
+    position: relative;
+    top: calc(6.167vw + 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.contact-details h1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #F6F6F6;
+}
+
+.all-contact-details h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #F6F6F6;
+    margin-top: 23px;
+    margin-bottom: 12px;
+}
+
+.all-contact-details span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F6F6F6B2;
+    margin-bottom: 23px;
+}
+
+
+/* Style for 1440px-1280px START */
+@media only screen and (max-width: 1440px) and (min-width: 1281px) {
+    .first-section-ab {
+        height: 620px;
+        background-image: url(../img/section-first-1440-bg-ab.svg);
+    }
+
+    .second-section-ab {
+        margin-top: -4px;
+        height: 1557px;
+        background-image: url(../img/section-second-1440-bg-ab.svg.svg);
+    }
+
+    .history-contatnt span {
+        font-size: 16px;
+        width: 633px;
+        line-height: 23px;
+    }
+
+    .history-logo-container img {
+        width: 59.167vw !important;
+        height: 13.253vw !important;
+    }
+
+    .history-symbolism img {
+        height: 17.917vw;
+        width: 34.722vw;
+        margin-bottom: 70px;
+    }
+
+    .content-secton-second {
+        gap: 1.944vw;
+    }
+
+    .third-section-ab {
+        height: 1136px;
+        background-image: url(../img/third-section-ab-1440-bg.svg);
+        margin-top: -1px;
+    }
+
+    .third-section-content h1 {
+        font-size: 30px;
+    }
+
+    .third-section-content ul li a {
+        font-size: 20px;
+    }
+
+    .quarters-section-ab {
+        height: 709px;
+        background-image: url(../img/quarters-section-ab-bg-1440.svg);
+        margin-top: -8px;
+    }
+
+    .contact-details h1 {
+        font-size: 30px;
+    }
+
+    .all-contact-details h1 {
+        font-size: 20px;
+        margin-bottom: 9px;
+    }
+
+    .content-secton-first {
+        padding-left: 102px;
+        gap: 45px;
+    }
+
+    .history-contatnt {
+        padding-left: 102px;
+        gap: 33px;
+    }
+
+    .history-symbolism h4 {
+        padding-left: 102px;
+    }
+
+    .third-section-content {
+        padding-left: 102px;
+    }
+
+    .contact-details {
+        padding-left: 102px;
+    }
+
+    .container-about h1 {
+        font-size: 30px;
+    }
+
+    .container-about h4 {
+        font-size: 24px;
+        padding-top: 14px;
+    }
+
+    .container-about {
+        gap: 30px;
+    }
+
+    .low-text {
+        top: -1px;
+    }
+
+    .container-about span {
+        width: 735px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .history-contatnt h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .third-section-content {
+        top: calc(7.167vw + 31px);
+        gap: 26px;
+    }
+
+    .contact-details {
+        top: calc(3.167vw + 95px);
+        gap: 0px;
+
+    }
+
+    .third-section-content ul {
+        line-height: 34px;
+        gap: 15px;
+
+    }
+
+    .history-logo-container h1 {
+        font-size: 4.333vw;
+        letter-spacing: 1.6em;
+        width: 44.469vw;
+    }
+
+    .low-block-symbolism {
+        gap: 90px;
+    }
+
+    .circel img {
+        width: 10.278vw;
+        height: 10.278vw;
+    }
+
+    .arrows img {
+        width: 10.278vw;
+        height: 10.278vw;
+    }
+
+    .letter-m img {
+        width: 9vw;
+        height: 10.2vw;
+    }
+
+    .circel h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+}
+
+/* Style for 1440px-1280px END */
+
+/* Style for 1280px-968px START */
+
+@media screen and (max-width: 1280px) and (min-width: 969px) {
+    .first-section-ab {
+        height: 620px;
+        background-image: url(../img/AboutPageView1280-first.svg);
+    }
+
+    .second-section-ab {
+        height: 1557px;
+        background-image: url(../img/AboutPageView1280-second.svg);
+    }
+
+    .third-section-ab {
+        background-image: url(../img/AboutPageView1280-new-and-new.svg);
+        margin-top: -1px;
+        height: 1136px;
+    }
+
+    .quarters-section-ab {
+        height: 721px;
+        background-image: url(../img/AboutPageView1280-quarters.svg);
+    }
+
+    .content-secton-first {
+        padding-left: 102px;
+        gap: 48px;
+    }
+
+    .container-about {
+        gap: 20px;
+    }
+
+    .history-contatnt {
+        padding-left: 102px;
+        gap: 34px;
+    }
+
+    .history-symbolism h4 {
+        padding-left: 102px;
+    }
+
+    .third-section-content {
+        padding-left: 102px;
+    }
+
+    .contact-details {
+        padding-left: 102px;
+
+    }
+
+    .container-about h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .low-text {
+
+        top: 4px;
+    }
+
+    .container-about h4 {
+        font-size: 24px;
+    }
+
+    .container-about span {
+        width: 711px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .history-contatnt h1 {
+        font-size: 30px;
+        margin-bottom: 13px;
+    }
+
+    .history-contatnt span {
+        font-size: 16px;
+        width: 633px;
+        line-height: 23px;
+    }
+
+    .history-logo-container img {
+        width: 859.35px !important;
+        height: 194.04px !important;
+    }
+
+    .history-logo-container h1 {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: 1.5em;
+        text-align: center;
+        width: 70%;
+    }
+
+    .history-symbolism img {
+        height: 20.917vw;
+        width: 38.722vw;
+        margin-bottom: 83px;
+    }
+
+    .content-secton-second {
+        gap: 1.7vw;
+
+    }
+
+    .third-section-content {
+        top: 10.2vw;
+        gap: 33px;
+    }
+
+    .third-section-content h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+
+    .third-section-content ul li a {
+        font-size: 20px;
+    }
+
+    .contact-details h1 {
+        font-size: 30px;
+    }
+
+    .all-contact-details h1 {
+        font-size: 20px;
+    }
+
+    .contact-details {
+        top: calc(5.167vw + 68px);
+        gap: 2px;
+    }
+
+    .circel span {
+        font-size: 16px;
+    }
+
+    .arrows span {
+        font-size: 16px;
+    }
+
+    .letter-m span {
+        font-size: 18px;
+    }
+
+    .circel h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+        align-self: center;
+        color: #F6F6F6;
+    }
+
+    .arrows h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+        align-self: center;
+        color: #F6F6F6;
+    }
+
+    .letter-m h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+        align-self: center;
+        color: #F6F6F6;
+    }
+
+
+    .circel img {
+        width: 11.563vw;
+        height: 11.563vw;
+    }
+
+    .arrows img {
+        width: 11.563vw;
+        height: 11.563vw;
+    }
+
+    .letter-m img {
+        width: 11vw;
+        height: 10.5vw;
+    }
+
+    .circel h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+
+    .low-block-symbolism {
+        gap: 82px;
+    }
+
+    .third-section-content ul {
+        line-height: 38px;
+    }
+}
+
+
+
+/* Style for 1280px-968px START */
+
+/* Style for 968px-678px START */
+
+@media screen and (max-width: 968px) and (min-width: 679px) {
+    .first-section-ab {
+        height: 603px;
+        background-image: url(../img/AboutPageView968-first-new.svg);
+    }
+
+    .container-about h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+
+    .container-about h4 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+
+    .container-about span {
+        width: 501px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .content-secton-first {
+        padding-left: 100px;
+        top: 58px;
+    }
+
+    .container-about {
+        gap: 33px;
+    }
+
+    .all-about {
+        display: none;
+    }
+
+    .second-section-ab {
+        height: 1752px;
+        background-image: url(../img/AboutPageView968-second.svg);
+    }
+
+    .history-contatnt h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .history-contatnt h4 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-top: 4px;
+    }
+
+
+
+
+    .history-contatnt span {
+        width: 396px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+    }
+
+    .history-contatnt {
+        padding-left: 100px;
+        gap: 23px;
+    }
+
+    .content-secton-second {
+        top: 44px;
+        gap: 4.167vw;
+    }
+
+    .history-logo-container img {
+        width: 41.25vw;
+        height: 8.854vw
+    }
+
+    .history-logo-container h1 {
+        font-size: 4.8vw;
+        font-weight: 700;
+        line-height: 77px;
+        letter-spacing: 0.5em;
+        width: 67%;
+    }
+
+    .history-symbolism h4 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-left: 100px;
+        margin-top: -10px;
+    }
+
+
+
+
+
+
+    .history-symbolism img {
+        width: 41.65vw;
+        height: 21.295vw
+    }
+
+    .history-symbolism {
+        gap: 18px;
+    }
+
+    .circel img {
+        width: 15.417vw;
+        height: 15.417vw;
+    }
+
+    .arrows img {
+        width: 15.417vw;
+        height: 15.417vw;
+    }
+
+    .letter-m img {
+        width: 14.75vw;
+        height: 14.333vw;
+    }
+
+    .circel h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .arrows h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .letter-m h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .history-logo-container {
+        width: auto;
+    }
+
+    .third-section-content h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .third-section-content ul li a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
+
+    .third-section-content ul li {
+        width: 395px;
+    }
+
+    .third-section-content {
+        padding-left: 100px;
+    }
+
+
+    .third-section-ab {
+        margin-top: -1px;
+        height: 905px;
+        background-image: url(../img/AboutPageView968-section-tttt.svg);
+    }
+
+    .third-section-content {
+        gap: 30px;
+    }
+
+    .third-section-content ul {
+        gap: 20px;
+    }
+
+    .third-section-content {
+        top: calc(3.167vw + 18px);
+    }
+
+    .contact-details {
+        width: 100%;
+        padding-left: 100px;
+        gap: 30px;
+    }
+
+    .contact-details h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+
+    .low-block-symbolism {
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .all-contact-details h1 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+
+    .all-contact-details span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+
+    }
+
+    .quarters-section-ab {
+        height: 555px;
+        background-image: url(../img/AboutPageView968-quarters-section.svg);
+    }
+
+}
+
+/* Style for 968px-678px START */
+
+/* Style for 678px-480px START */
+
+@media screen and (max-width: 678px) and (min-width: 429px) {
+
+    .low-block-symbolism {
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .all-about {
+        display: none;
+    }
+
+    .first-section-ab {
+        height: 542px;
+        background-image: url(../img/AboutPageView678-first-bg.svg);
+    }
+
+    .content-secton-first {
+        padding-left: 100px;
+        top: 59px;
+    }
+
+    .container-about {
+        gap: 30px;
+    }
+
+    .container-about h4 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .container-about h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+
+    .container-about span {
+        width: 70.571vw;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .second-section-ab {
+        margin-top: -1px;
+        height: 1752px;
+        background-image: url(../img/AboutPageView678-second-bg-ab.svg);
+    }
+
+    .history-contatnt {
+        padding-left: 100px;
+    }
+
+    .content-secton-second {
+        top: 43px;
+        gap: 40px;
+    }
+
+    .history-contatnt h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .history-contatnt h4 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .history-contatnt span {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        width: 55.571vw;
+        margin-top: -12px;
+    }
+
+    .history-contatnt {
+        gap: 30px;
+    }
+
+    .history-logo-container img {
+        width: 396px;
+        height: 84.61px;
+    }
+
+    .history-logo-container h1 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 87px;
+        letter-spacing: 0.4em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .history-symbolism h4 {
+        padding-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-top: -15px;
+    }
+
+    .history-symbolism {
+        gap: 17px;
+    }
+
+    .history-symbolism img {
+        width: 396px;
+        height: 204.34px;
+    }
+
+    .circel img {
+        width: 148px;
+        height: 148px;
+    }
+
+    .arrows img {
+        width: 148px;
+        height: 148px;
+    }
+
+    .letter-m img {
+        width: 132px;
+        height: 148px;
+    }
+
+    .letter-m {
+        width: 100%;
+    }
+
+    .arrows {
+        width: 100%;
+        margin-bottom: 13px;
+    }
+
+    .circel {
+        width: 100%;
+    }
+
+    .circel span {
+        width: 286px;
+    }
+
+    .arrows span {
+        width: 279px;
+    }
+
+    .letter-m span {
+        width: 250px;
+    }
+
+    .circel h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .arrows h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .letter-m h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .third-section-ab {
+        margin-top: -1px;
+        height: 905px;
+        background-image: url(../img/AboutPageView678-ab-bg-ttt.svg);
+    }
+
+    .third-section-content {
+        padding-left: 100px;
+        gap: 30px;
+    }
+
+    .third-section-content h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .third-section-content ul li a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .third-section-content ul {
+        gap: 20px;
+    }
+
+    .third-section-content ul {
+        width: 360px;
+    }
+
+    .contact-details {
+        padding-left: 100px;
+    }
+
+    .quarters-section-ab {
+        height: 555px;
+        background-image: url(../img/AboutPageView678-ab-bg-4.svg);
+        margin-top: -1px;
+    }
+
+    .contact-details h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .all-contact-details h1 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-top: 0px;
+        margin-bottom: 12px;
+        margin-top: 20px;
+    }
+
+    .all-contact-details span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .history-logo-container {
+        width: 100%;
+    }
+
+    .contact-details {
+        gap: 10px;
+    }
+
+}
+
+
+/* Style for 678px-480px END */
+
+/* Style for 480px-300px START */
+@media screen and (max-width: 428px) and (min-width: 301px) {
+
+
+
+    .pageHeader {
+        height: 71px !important;
+    }
+
+
+    .letter-m {
+        width: 100%;
+    }
+
+    .arrows {
+        width: 100%;
+        margin-bottom: -26px;
+    }
+
+    .circel {
+        width: 100%;
+    }
+
+    .circel span {
+        width: 286px;
+    }
+
+    .arrows span {
+        width: 342px;
+    }
+
+    .letter-m span {
+        width: 250px;
+    }
+
+
+
+
+
+
+    .low-block-symbolism {
+        flex-direction: column;
+        align-self: center;
+        gap: 78px;
+    }
+
+    .all-about {
+        display: none;
+    }
+
+    .first-section-ab {
+        height: 584px;
+        background-image: url(../img/MobileAboutPage-sm-screen-ab.svg);
+    }
+
+    .content-secton-first {
+        top: 61px;
+        padding-left: 16px;
+    }
+
+    .container-about {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .container-about h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+        margin-bottom: 11px;
+    }
+
+    .container-about h4 {
+        width: 202px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .container-about span {
+        width: 88.5vw;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .second-section-ab {
+        margin-top: -1px;
+        height: 1752px;
+        background-image: url(../img/MobileAboutPage-sm-bg-ab-2.svg);
+    }
+
+    .history-contatnt {
+        padding-left: 16px;
+        gap: 16px;
+    }
+
+
+    .history-contatnt h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+
+    .history-contatnt h4 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    .history-contatnt span {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        width: 82.5vw;
+    }
+
+    .content-secton-second {
+        top: 50px;
+        gap: 40px
+    }
+
+    .history-logo-container {
+        width: 100%;
+    }
+
+    .history-logo-container img {
+        width: 93.176vw;
+        height: 84.61px;
+        margin-top: 13px;
+    }
+
+    .history-logo-container h1 {
+        font-size: 11.765vw;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0.5em;
+        width: 72.469vw;
+    }
+
+
+    .history-symbolism h4 {
+        padding-left: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        margin-top: 2px;
+    }
+    .history-symbolism {
+        gap: 22px;
+    }
+
+    .history-symbolism img {
+        width: 93.176vw;
+        height: 204.34px;
+    }
+
+    .circel img {
+        width: 35vw;
+        height: 35vw
+    }
+
+    .circel h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .arrows h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .letter-m h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .arrows img {
+        width: 34vw;
+        height: 35vw
+    }
+
+    .letter-m img {
+        width: 31.859vw;
+        height: 41.812vw;
+    }
+
+
+    .third-section-ab {
+        margin-top: -1px;
+        height: 905px;
+        background-image: url(../img/MobileAboutPage-sm-ab-bg-33333.svg);
+    }
+
+    .third-section-content h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .third-section-content ul li a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .third-section-content {
+        padding-left: 16px;
+        top: calc(-0.833vw + 57px);
+        gap: 30px;
+    }
+
+    .third-section-content ul {
+        gap: 20px
+    }
+
+    .third-section-content ul li {
+        width: 86.706vw;
+    }
+
+    .contact-details {
+        padding-left: 16px;
+        top: calc(12.167vw + 20px);
+        gap: 4px
+    }
+
+    .quarters-section-ab {
+        height: 555px;
+        background-image: url(../img/MobileAboutPage-sm-end-bg-ab.svg);
+    }
+
+    .contact-details h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .all-contact-details h1 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0em;
+    }
+
+
+
+
+}
+
+/* Style for 480px-300px END */

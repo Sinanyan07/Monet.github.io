@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "Montserratarm";
+    src: url(../fonts/fonts/Montserratarm-Medium/Montserratarm-Medium.ttf);
+}
+
+body {
+    font-family: "Montserratarm";
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+.sakaginSection{
+    width: 100%;
+    min-height: 809px;
+    background-image: url(../img/sakagin19.svg);
+    background-position: center;
+    background-size: cover;
+    padding-inline: 250px;
+}
+
+
+
+
+
+
+
+
+.topSpa2 {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    gap: 6px;
+
+}
+.topSpa2 a,
+span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.topSpa2 a:hover {
+    color: #FFB25F;
+}
+
+.topSpa2 a:active {
+    color: #FF7233;
+}

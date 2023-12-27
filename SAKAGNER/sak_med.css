@@ -1,0 +1,55 @@
+@media screen and (max-width:1440px) and (min-width:1280px) {
+    .sakaginSection {
+        background-image: url(../img/sakagin14.svg);
+    }
+}
+
+@media screen and (max-width:1280px) and (min-width:968px) {
+    .sakaginSection {
+        background-image: url(../img/sakagin12.svg);
+    }
+}
+
+@media screen and (max-width:968px) and (min-width:678px) {
+    .sakaginSection {
+        background-image: url(../img/ReportPageView968.svg);
+    }
+}
+
+
+@media screen and (max-width:678px) and (min-width:428px) {
+    .sakaginSection {
+        background-image: url(../img/ReportPageView678.svg);
+    }
+}
+
+@media screen and (max-width:428px) {
+    .sakaginSection {
+        background-image: url(../img/MobileՍակագներPage.svg);
+    }
+}
+
+@media screen and (max-width:1440px){
+
+}
+
+
+
+
+@media screen and (max-width:1280px) {
+
+}
+
+
+@media screen and (max-width:968px) {
+
+}
+
+@media screen and (max-width:678px) {
+
+}
+
+
+@media screen and (max-width:428px){
+    
+}

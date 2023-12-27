@@ -1,0 +1,235 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "Montserratarm";
+    src: url(../fonts/fonts/Montserratarm-Medium/Montserratarm-Medium.ttf);
+}
+
+body {
+    font-family: "Montserratarm";
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.onlySection1 {
+    width: 100%;
+    min-height: 913px;
+    background-image: url(../img/PartnerPageView19.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 250px;
+}
+
+.topSpa {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    gap: 6px;
+
+}
+
+.topSpa a,
+span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.topSpa a:hover {
+    color: #FFB25F;
+}
+
+.topSpa a:active {
+    color: #FF7233;
+}
+
+
+.partnerBg {
+    width: 100%;
+    min-height: 628px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.partnerBg h1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F6F6F6;
+}
+
+.partSp {
+    max-width: 700px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F2F2B2;
+}
+
+.partnerMain {
+    width: 100%;
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: center;
+    padding-inline: 145px;
+}
+
+.partnerMain p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F6F6F6;
+}
+
+.partMainInn {
+    max-width: 945px;
+    width: 100%;
+    height: 238px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.partInnLeft {
+    max-width: 396px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.partInnInp {
+    max-width: 396px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.partInnInp span {
+    max-width: 396px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #AAAAAA;
+}
+
+.partInp {
+    max-width: 396px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 16px;
+}
+
+
+
+
+
+
+
+.partInnRight {
+    max-width: 509px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.partInnRight span {
+    max-width: 509px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #AAAAAA;
+
+}
+
+textarea {
+    max-width: 509px;
+    width: 100%;
+    height: 216px;
+    padding: 12px 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 8px;
+}
+
+textarea ::placeholder {
+    color: #AAAAAA;
+
+}
+
+.partnerButt {
+    border: none;
+    max-width: 168px;
+    width: 100%;
+    height: 44px;
+    border-radius: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(180deg, #FFB763 10.52%, #FF7233 78.75%);
+
+    color: #001447;
+
+}
+
+.partnerButt:hover {
+    cursor: pointer;
+    border: 2px solid #FF7233;
+    background: linear-gradient(0deg, #001447, #001447),
+        linear-gradient(0deg, #FF7233, #FF7233);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #FF7233;
+}
