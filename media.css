@@ -2010,7 +2010,7 @@ text-align: center;
 
 
 .ourFr{
-font-size: 26px;
+font-size: 25px;
 font-weight: 500;
 line-height: 40px;
 letter-spacing: 0em;
@@ -2024,10 +2024,14 @@ text-align: center;
    display: none;
 }
 .fifGrMid {
-   gap: 30px;
+   gap: 40px;
    max-width: 245px;
 }
-
+.fifGroup {
+   margin-top: -63px;
+   height: 488px;
+   justify-content: space-between;
+}
 
 
 

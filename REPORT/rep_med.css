@@ -29,52 +29,113 @@
         background-image: url(../img/MobileAccountingPage.svg);
     }
 }
-
-
-@media screen and (max-width:1440px){
-    .reportSection{
-        padding-inline: 100px;
-    }
-    .reportH{
-font-size: 30px;
-font-weight: 500;
-line-height: 42px;
-letter-spacing: 0em;
-text-align: left;
-
-    }
-    .finRep{
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
+@media screen and (max-width:320px) {
+    .reportSection {
+        background-image: url(../img/report_3_3.svg);
     }
 }
 
 
-@media screen and (max-width:968px){
-    .topSpa{
+@media screen and (max-width:1440px) {
+    .reportSection {
+        padding-inline: 100px;
+        height: 610px;
+    }
+
+    .reportH {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .finRep {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .reportH {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1280px) {
+    .topSpa {
+        margin-top: 46px;
+    }
+
+    .finRep {
+        margin-top: 29px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:968px) {
+    .topSpa {
         display: none;
     }
-    .reportH{
+    .finRep {
+        font-size: 18px;
+    }
+
+    .reportH {
         margin-top: 60px;
     }
 }
 
 
-@media screen and (max-width:678px){
-    .reportSection{
-        min-height: 1024px;
+@media screen and (max-width:678px) {
+    .reportSection {
+        height: 700px;
     }
+    
 }
 
 
 @media screen and (max-width:428px) {
-    .reportSection{
-        min-height: 316px;
+    .reportSection {
+        height: 316px;
     }
-    .reportSection{
+
+    .reportSection {
         padding-inline: 16px;
     }
+    .finRep{
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+}
+
+
+
+@media screen and (max-width:320px) {
+    .reportSection {
+        height: 303px;
+    }
+.reportH{
+font-size: 28px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+
+}
 }
