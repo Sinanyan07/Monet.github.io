@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 @font-face {
@@ -610,7 +611,7 @@ ul {
 
 
 .fifGrMid {
-    max-width: 1300px;
+    max-width: 1200px;
     width: 100%;
     min-height: 228px;
     display: flex;

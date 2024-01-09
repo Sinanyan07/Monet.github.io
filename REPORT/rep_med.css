@@ -29,6 +29,7 @@
         background-image: url(../img/MobileAccountingPage.svg);
     }
 }
+
 @media screen and (max-width:320px) {
     .reportSection {
         background-image: url(../img/report_3_3.svg);
@@ -88,6 +89,7 @@
     .topSpa {
         display: none;
     }
+
     .finRep {
         font-size: 18px;
     }
@@ -102,7 +104,13 @@
     .reportSection {
         height: 700px;
     }
-    
+
+}
+
+@media screen and (max-width:538px) {
+    .reportSection {
+        padding-inline: 50px;
+    }
 }
 
 
@@ -114,28 +122,40 @@
     .reportSection {
         padding-inline: 16px;
     }
-    .finRep{
-font-size: 18px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
+
+    .finRep {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
 
     }
 }
 
 
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:350px) {
     .reportSection {
         height: 303px;
     }
-.reportH{
-font-size: 28px;
-font-weight: 500;
-line-height: 42px;
-letter-spacing: 0em;
-text-align: left;
 
+    .reportH {
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
 }
+
+
+@media screen and (max-width:280px) {
+    .reportH {
+        font-size: 19px;
+    }
+    .finRep {
+        font-size: 16px;
+    }
 }

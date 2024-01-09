@@ -27,6 +27,12 @@
     }
 }
 
+
+
+
+
+
+
 @media screen and (max-width:428px) {
     .consumeSect {
         background-image: url(../img/consumer_4.svg);
@@ -123,6 +129,13 @@
 
 }
 
+@media screen and (max-width:520px) {
+    .consumeSect{
+        padding-inline: 50px ;
+    }
+    }
+    
+
 
 @media screen and (max-width:930px) {
     .consumeSect {
@@ -158,6 +171,22 @@
 }
 
 
+
+
+
+@media screen and (max-width: 415px) {
+    .consCenterH1 {
+        margin: 10px 16px;
+    }
+    .consumerMain {
+        min-height: 601px;
+    }
+}
+
+
+
+
+
 @media screen and (max-width: 320px) {
 
 .consH1{
@@ -168,6 +197,9 @@
 .consumerMain {
     padding-top: 60px;
         min-height: 761px;
+}
+.consCenterH1 {
+    margin: 30px 16px;
 }
 
 }

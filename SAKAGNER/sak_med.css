@@ -39,10 +39,12 @@
 
 
 
+
+
 @media screen and (max-width:1440px){
 .sakaginSection{
     height: 710px;
-    padding-inline: 101px;
+    padding-inline: 97px;
 }
 .sakH1 {
     margin-top: 50px;
@@ -224,4 +226,10 @@ color: #F6F6F6B2;
 .paymLeft {
     gap: 10px;
 }
+}
+
+@media screen and (max-width:300px){
+    .sakH1 h1 {
+        font-size: 24px;
+    }
 }

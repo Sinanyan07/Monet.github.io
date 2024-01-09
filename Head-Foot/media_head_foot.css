@@ -1,6 +1,3 @@
-
-
-
 @media screen and (max-width: 1900px) {
    .topMid {
       max-width: 583px;
@@ -8,11 +5,17 @@
       height: 100%;
       display: flex;
       justify-content: flex-end;
-      
-  }
-  .innTop {
-   gap: 15px;
-}
+
+   }
+
+   .midLeft ul li a,
+   .midRight ul li a {
+      font-size: 16px;
+   }
+
+   .innTop {
+      gap: 20px;
+   }
 }
 
 @media screen and (max-width: 1620px) {
@@ -25,7 +28,7 @@
       letter-spacing: 0em;
 
    }
- 
+
 
    .topRight {
       max-width: 288px;
@@ -34,13 +37,14 @@
    .rightTop button {
       max-width: 100px;
    }
-      .leftBot span {
-         font-size: 16px;
-      }
+
+   .leftBot span {
+      font-size: 15px;
+   }
 }
 
 
- @media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
    .pageHeader {
       padding-inline: 100px;
    }
@@ -48,7 +52,8 @@
    .footerPage {
       padding-inline: 100px;
    }
-   .leftBot{
+
+   .leftBot {
       height: 100%;
    }
 
@@ -79,11 +84,14 @@
       font-weight: 400;
       line-height: 20px;
       letter-spacing: 0em;
-      
+
    }
-   .midLeft ul, .midRight ul{
+
+   .midLeft ul,
+   .midRight ul {
       gap: 23px;
    }
+
    .rbotInn ul {
       gap: 15px;
    }
@@ -114,12 +122,14 @@
       max-width: 350px;
       align-items: end;
    }
-   .topLeft{
+
+   .topLeft {
       max-width: 337px;
       gap: 46px;
 
    }
-   .topMid{
+
+   .topMid {
       max-width: 448px;
 
    }
@@ -132,51 +142,61 @@
    .rightTop button {
       font-size: 14px;
    }
+
    .topMid {
       gap: 45px;
       max-width: 534px;
    }
-   
 
 
-   .head-innDv2 ul li a{
+
+   .head-innDv2 ul li a {
       text-transform: unset;
    }
+
    .head-innDv2 {
       max-width: 600px;
       width: 100%;
-   
+
    }
-   .head-innDv2 ul{
+
+   .head-innDv2 ul {
       justify-content: unset;
       gap: 33px;
    }
 
 
 
-   .leftMid, .leftBot{
+   .leftMid,
+   .leftBot {
       text-align: left;
    }
-   .innTop{
+
+   .innTop {
       justify-content: unset;
       gap: 35px;
    }
+
    .ibotInn span {
       font-size: 13px;
       line-height: 18px;
    }
-   .leftTop{
+
+   .leftTop {
       margin-top: 0px;
    }
-   .brdis{
+
+   .brdis {
       display: block;
    }
-.leftMid{
-   margin-top: -20px;
-}
-.leftBot{
-   margin-top:10px;
-}
+
+   .leftMid {
+      margin-top: -20px;
+   }
+
+   .leftBot {
+      margin-top: 10px;
+   }
 }
 
 
@@ -186,7 +206,7 @@
 @media screen and (max-width: 1280px) {
 
    .rightTop {
-     width: 340px;
+      width: 340px;
    }
 
    .logores12 {
@@ -218,8 +238,8 @@
    .res67-opening {
       display: none;
    }
-  
-   .ibotInn{
+
+   .ibotInn {
       padding-inline: 40px;
 
    }
@@ -227,10 +247,11 @@
 
    /*  */
    .topMid {
-      gap: 0px;   
+      gap: 0px;
       padding-left: 40px;
-   
+
    }
+
    .innTop {
       gap: 0px;
    }
@@ -238,28 +259,41 @@
    .topRight {
       max-width: 324px;
    }
+
    .ibotInn span {
       font-size: 13px;
       line-height: 10px;
-  }
-  .ibotInn ul {
-   max-width: 380px;
-   align-items: flex-end;
-  }
-  .topMid {
-   max-width: 554px;
-}
+   }
+
+   .ibotInn ul {
+      max-width: 380px;
+      align-items: flex-end;
+   }
+
+   .topMid {
+      max-width: 554px;
+   }
 
    /*  */
    .leftBot {
       margin-top: 48px;
       width: 300px;
-  }
-  .leftMid {
-   height: 60px;
-   margin-top: 30px;
-  }
+   }
 
+   .leftMid {
+      height: 60px;
+      margin-top: 30px;
+   }
+
+}
+
+
+@media screen and (max-width: 1204px) {
+   .topMid {
+      max-width: 554px;
+      gap: 20px;
+      padding-left: 20px;
+   }
 }
 
 
@@ -270,54 +304,69 @@
 @media screen and (max-width: 1170px) {
 
 
-      .topMid {
-         gap: 5px;
-         max-width: 534px;
-     }
-   
-   
-   .innTop {
-      gap: 5px;
+   .topMid {
+      gap: 10px;
+      max-width: 534px;
+      padding-left: 0px;
    }
+
+   .innTop {
+      gap: 10px;
+   }
+
+
+
+
+   .rightTop button {
+      max-width: 80px;
+      width: 100%;
+   }
+
 
    .topRight {
       max-width: 324px;
    }
+
    .ibotInn span {
       font-size: 13px;
       line-height: 10px;
-  }
-  .ibotInn ul {
-   max-width: 380px;
-   align-items: flex-end;
-  }
-  .topMid {
-   max-width: 554px;
-   
-}
+   }
 
-.rightTop {
-   max-width: 350px;
-   width: 100%;
- }
+   .ibotInn ul {
+      max-width: 380px;
+      align-items: flex-end;
+   }
 
- .topRh1 {
-   max-width: 350px;
-   width: 100%;
-}
-.topLeft {
-   max-width: 240px;
-   gap: 30px;
-}
-.leftMid {
-   height: 40px;
-    margin-top: 0px;
-}
-.leftBot {
-   margin-top: -0px;
-   max-width: 300px;
-   width: 100%;
-}
+   .topMid {
+      max-width: 554px;
+
+   }
+
+   .rightTop {
+      max-width: 350px;
+      width: 100%;
+   }
+
+   .topRh1 {
+      max-width: 350px;
+      width: 100%;
+   }
+
+   .topLeft {
+      max-width: 240px;
+      gap: 30px;
+   }
+
+   .leftMid {
+      height: 40px;
+      margin-top: 0px;
+   }
+
+   .leftBot {
+      margin-top: -0px;
+      max-width: 300px;
+      width: 100%;
+   }
 
 
 
@@ -325,23 +374,26 @@
 
 
 
-.head-innDv2 ul li a{
-   font-size: 12px;
-}
-.ibotInn span{
-   font-size: 12px;
-}
-.ibotInn ul li a {
-   font-size: 12px;
-}
-.ibotInn ul{
-   gap: 18px;
-}
+   .head-innDv2 ul li a {
+      font-size: 12px;
+   }
 
-.head-innDv2 {
-   max-width: 416px;
-   width: 100%;
-}
+   .ibotInn span {
+      font-size: 12px;
+   }
+
+   .ibotInn ul li a {
+      font-size: 12px;
+   }
+
+   .ibotInn ul {
+      gap: 18px;
+   }
+
+   .head-innDv2 {
+      max-width: 416px;
+      width: 100%;
+   }
 
 
 
@@ -369,22 +421,35 @@
 
 
 @media screen and (max-width: 1040px) {
+
    /* .head-innDv2 ul li a{
       font-size: 12px;
    }
    .innTop {
       gap: 5px;
   } */
-  .head-innDv2,
+   .head-innDv2,
    .innDv3-left,
    .head-innDv3 {
       display: none;
    }
+
    .imgFor,
    .left-lang,
    .innDv3-right {
       display: flex;
    }
+
+   .rightTop button {
+      max-width: 80px;
+      width: 100%;
+   }
+
+   .topLeft {
+      max-width: 203px;
+      gap: 30px;
+   }
+
 }
 
 
@@ -394,12 +459,14 @@
 
 
 
-@media screen and (max-width: 968px) {
-
-
-   .head-innDv3:hover {
-      cursor: pointer;
+@media screen and (max-width: 1040px) {
+   .rightTop button {
+      max-width: 116px;
+      width: 100%;
    }
+
+ 
+   
 
 
    .footerPage {
@@ -441,7 +508,7 @@
       display: none;
    }
 
-  
+
 
    .topRight {
       max-width: 768px;
@@ -485,7 +552,7 @@
       text-align: center;
       line-height: 18px;
       font-size: 14px;
- 
+
    }
 
    .midLeft ul li a,
@@ -506,72 +573,89 @@
    .topRight {
       margin-top: 47px;
    }
-.innMed hr{
-   margin-top: 25px;
-}
-.ibotInn ul li{
-   margin-top: 10px;
-}
-.ibotInn{
-   max-width: 490px;
-}
-.ibotInn ul {
-   gap: 33px;
-   max-width: 400px;
-}
-.leftBot{
-   max-width: 320px;
-   text-align: center;
-}
-.leftBot span {
-font-size: 18px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
+
+   .innMed hr {
+      margin-top: 25px;
+   }
+
+   .ibotInn ul li {
+      margin-top: 10px;
+   }
+
+   .ibotInn {
+      max-width: 490px;
+   }
+
+   .ibotInn ul {
+      gap: 33px;
+      max-width: 400px;
+   }
+
+   .leftBot {
+      max-width: 320px;
+      text-align: center;
+   }
+
+   .leftBot span {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
 
 
-}
-.leftTop{
-   align-items: center;
-}
-.topLeft {
-   gap: 18px;
-}
+   }
 
-.topMid {
-   margin-top: 50px;
+   .leftTop {
+      align-items: center;
+   }
 
-}
-.topMid{
-   max-width: 639px;
-   justify-content: space-between;
-   padding-left: 0px;
-}
-.midLeft ul li a, .midRight ul li a{
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 1px;
-text-align: left;
+   .topLeft {
+      gap: 18px;
+   }
 
-}
-.midLeft h1, .midRight h1  {
-   margin-top: -5px;
-}
+   .topMid {
+      margin-top: 50px;
 
-.midLeft ul, .midRight ul {
-    gap: 20px;
-}
-.rightTop {
-   max-width: 340px;
-   width: 100%;
-}
-.ibotInn ul li a {
-   font-size: 14px;
-}
-.brEnd{
-   display: block;
-}
+   }
+
+   .topMid {
+      max-width: 639px;
+      justify-content: space-between;
+      padding-left: 0px;
+   }
+
+   .midLeft ul li a,
+   .midRight ul li a {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 1px;
+      text-align: left;
+
+   }
+
+   .midLeft h1,
+   .midRight h1 {
+      margin-top: -5px;
+   }
+
+   .midLeft ul,
+   .midRight ul {
+      gap: 20px;
+   }
+
+   .rightTop {
+      max-width: 340px;
+      width: 100%;
+   }
+
+   .ibotInn ul li a {
+      font-size: 14px;
+   }
+
+   .brEnd {
+      display: block;
+   }
 
 
 
@@ -583,10 +667,13 @@ text-align: left;
 }
 
 @media screen and (max-width:678px) {
+   .res67-opening {
+      max-width: 100%;
+   }
    .footerPage {
       background-image: url(../img/footer6.svg);
       background-size: cover;
-      height: 1334px;
+      height: 1333px;
    }
 
    .topMid {
@@ -626,17 +713,17 @@ text-align: left;
       line-height: 22px;
       letter-spacing: 1px;
       text-align: center;
-      
+
 
    }
 
    .topRh1 {
       max-width: 479px;
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0px;
-text-align: left;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
 
    }
 
@@ -653,7 +740,7 @@ text-align: left;
 
    .topLeft {
       gap: 26px;
-  }
+   }
 
 
 
@@ -663,10 +750,11 @@ text-align: left;
 @media screen and (max-width: 530px) {
    .footerPage {
       padding-inline: 50px;
-  }
-  .res67-opening {
-   left: 50px;
-}
+   }
+
+   .res67-opening {
+      left: 50px;
+   }
 
 
 }
@@ -677,16 +765,18 @@ text-align: left;
    .innMed {
       margin-top: 300px;
    }
+
    .res67-opening {
       left: 40px;
    }
 }
 
 @media screen and (max-width: 428px) {
-   .pageHeader{
+   .pageHeader {
       height: 71px;
       padding-inline: 16px;
    }
+
    .footerPage {
       background-image: url(./img/footer4.svg);
       background-size: cover;
@@ -701,136 +791,196 @@ text-align: left;
 
    .innMed {
       margin-top: 295px;
-  }
-   .head-innDv1{
+   }
+
+   .head-innDv1 {
       justify-content: unset;
    }
-   .logono{
+
+   .logono {
       display: block;
-  }
-  .logobl{
-   display: none;
+   }
+
+   .logobl {
+      display: none;
+   }
+
+   .footLogo4 {
+      display: block;
+   }
+
+   .footLogo9 {
+      display: none;
+   }
+
+   .topMid {
+      flex-direction: column;
+      gap: 50px;
+   }
+
+   .topRight {
+      margin-top: 33px;
+   }
+
+   .rightMid {
+      margin-top: 42px;
+   }
+
+
 }
 
-.footLogo4{
-   display: block;
-}
-.footLogo9{
-   display: none;
-}
-.topMid {
-   flex-direction: column;
-   gap: 50px;
-}
-.topRight {
-   margin-top: 43px;
-}
-.rightMid {
-   margin-top: 42px;
+
+@media screen and (max-width: 435px) {
+   .res67-opening {
+      left: 15px;
+   }
 }
 
 
+
+
+@media screen and (max-width: 385px) {
+   .ibotInn {
+      justify-content: unset;
+      padding-inline: 0px;
+      height: 105px;
+      gap: 5px;
+   }
 }
 
 
 @media screen and (max-width: 380px) {
    .topRight {
       margin-top: 10px;
+   }
+
+   .ibotInn ul li {
+      margin-top: 0px;
+   }
+
+   .ibotInn ul {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   .topRight {
+      margin-top: -5px;
+   }
+
+   .res67-opening {
+      left: 15px;
+   }
+
+   .enjoyMon {
+      font-size: 26px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 325px) {
+   .res67-opening {
+      left: 10px;
+   }
+}
+
+
+
+@media screen and (max-width: 322px) {
+   .rightBot {
+      margin-top: 10px;
   }
-  .ibotInn ul li {
-   margin-top: 0px;
 }
-.ibotInn ul{
-   display: flex;
-   flex-wrap: wrap;
-}
-.ibotInn {
-   padding-inline: 0px;
-   height: 120px;
-}
-.topRight {
-   margin-top: -5px;
-}
-.res67-opening {
-   left: 30px;
-}
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 @media screen and (max-width: 320px) {
-.footerPage{
-   height: 1343px;
-}
+   .rightBot {
+      margin-top: 20px;
+  }
+   .footerPage {
+      height: 1343px;
+   }
 
-.leftBot span{
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
+   .leftBot span {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: center;
 
-}
-.midLeft ul li a, .midRight ul li a{
-font-size: 18px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 2px;
-text-align: left;
+   }
 
-}
+   .midLeft ul li a,
+   .midRight ul li a {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 2px;
+      text-align: left;
 
-.topRight {
-   margin-top: 55px;
-}
-.ibotInn {
-   height: 113px;
-}
-.ibotInn span{
-font-size: 12px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: center;
+   }
 
+   .topRight {
+      margin-top: 45px;
+   }
 
-}
-.ibotInn ul {
-padding-top: 10px;
-}
+   .ibotInn {
+      height: 111px;
+      gap: 26px;
+   }
 
-.res67-opening {
-   left: 20px;
-}
+   .ibotInn span {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: center;
 
 
+   }
+
+   .ibotInn ul {
+      padding-top: 10px;
+   }
+
+   .res67-opening {
+      left: 20px;
+   }
+
+   .footerPage {
+      height: 1343px;
+   }
+
+   .enjoyMon {
+      font-size: 24px;
+   }
+
+   .res67-opening {
+      left: -10px;
+   }
 
 
 
@@ -840,24 +990,70 @@ padding-top: 10px;
 @media screen and (max-width: 315px) {
    .topRight {
       margin-top: 0px;
-  }
+   }
+}
+
+
+
+@media (max-width: 300px) {
+   .ibotInn {
+      height: 111px;
+      gap: 10px;
+   }
+
+   .rbotInn ul {
+      gap: 5px;
+   }
+
+   .forGrInn {
+      gap: 40px;
+   }
+
+   .thrdGroupTop {
+      height: 753px;
+   }
+
+   .thrdGroupMid {
+      height: 651px;
+   }
+
+   .downloadButt {
+      font-size: 16px;
+   }
+}
+
+
+@media screen and (max-width: 290px) {
+   .enjoyMon {
+      font-size: -15px;
+   }
+}
+
+
+
+@media screen and (max-width: 280px) {
+   .res67-opening {
+      left: -25px;
+   }
+}
+
+@media screen and (max-width: 275px) {
+   .res67-opening {
+      left: -30px;
+   }
 }
 
 
 
 
-/* 
-@media screen and (max-width: 180px) {
-   .topLeft{
-      max-width: 300px;
+@media screen and (max-width:1920px) and (min-width:1440px) {
+   .footerPage {
+      background-size: cover;
    }
-   .innTop{
-      gap: 5px;
-   }
-} */
 
 
 
+}
 
 
 
@@ -880,7 +1076,7 @@ padding-top: 10px;
 
 }
 
-@media screen and (max-width:968px)  {
+@media screen and (max-width:968px) {
    .footerPage {
       background-image: url(../img/footer9.svg);
       background-size: cover;
@@ -904,7 +1100,63 @@ padding-top: 10px;
       background-size: cover;
       height: 1324px;
    }
-  
 
 
+
+}
+
+@media screen and (max-width:320px) {
+   .footerPage {
+      background-image: url(../img/footerEnd.svg);
+      background-size: cover;
+      height: 1343px;
+   }
+
+
+
+}
+
+
+
+@media screen and (max-width:300px) {
+   .logores19{
+      width: 70%;
+   }
+   .enjoyMon{
+      font-size: 19px;
+   }
+   .inn-step-bot {
+      gap: 10px;
+  }
+  .secGRH1 {
+   font-size: 20px;
+  }
+  .spanPay {
+   font-size: 18px;
+   line-height: 22px;
+}
+.thrGrTopP, .thrdGrMp22, .thrdGrBp4 {
+   font-size: 18px;
+   line-height: 22px;
+}
+.GrBotInn {
+   gap: 10px;
+}
+
+.midLeft, .midRight  {
+   gap: 5px;
+}
+.midLeft ul, .midRight ul {
+   gap: 10px;
+}
+.ibotInn ul {
+   gap: 8px;
+}
+.ibotInn {
+   height: 126px;
+   gap: 10px;
+}
+.aboutMonet1 {
+   font-size: 18px;
+}
 }

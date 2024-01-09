@@ -87,9 +87,9 @@
 }
 
 @media screen and (max-width:1280px) {
-    .partnerMain {
+    /* .partnerMain {
         padding-inline: 68px;
-    }
+    } */
 
     .partInnLeft {
         max-width: 393px;
@@ -114,7 +114,7 @@
         }
 
         .partnerMain {
-            padding-inline: 186px;
+            /* padding-inline: 186px; */
             min-height: 640px;
             gap: 43px;
         }
@@ -151,6 +151,7 @@
         .partMainInn {
             flex-direction: column;
             gap: 30px;
+            align-items: center;
         }
 
         .partnerButt {
@@ -166,20 +167,23 @@
             margin-bottom: -21px;
             color: #FFFFFF;
         }
+        .partInnRight {
+            max-width: 396px;
+        }
 
 
     }
 
-    @media screen and (max-width:800px) {
+    /* @media screen and (max-width:800px) {
         .partnerMain {
             padding-inline: 100px;
         }
-    }
+    } */
 
 
     @media screen and (max-width:678px) {
         .partnerMain {
-            padding-inline: 40px;
+            /* padding-inline: 40px; */
             gap: 35px;
         }
 
@@ -211,7 +215,7 @@
             line-height: 22px;
         }
         .partInnLeft {
-            max-width: 509px;
+            max-width: 396px;
         }
         .partInnInp {
             max-width:509px;
@@ -248,6 +252,16 @@
         }
     }
 
+
+    @media screen and (max-width:360px) {
+        .partnerButt {
+            margin-top: 250px;
+
+        }
+    }
+
+
+
     @media screen and (max-width:320px) {
         .onlySection1{
             height: 1084px;
@@ -282,4 +296,16 @@ text-align: left;
         }
 
 
+    }
+
+
+    @media screen and (max-width:300px) {
+        .onlySection1{
+            padding-bottom: 10px;
+                height: 1110px;
+        }
+        .partnerButt {
+            margin-top: 240px;
+            height: 35px;
+        }
     }

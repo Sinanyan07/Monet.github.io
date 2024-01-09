@@ -14,7 +14,6 @@
 
 body {
     font-family: "Montserratarm";
-
 }
 
 
@@ -32,12 +31,12 @@ ul {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-inline: 250px;
 }
 
 .left-content {
     display: flex;
     flex-direction: column;
-    padding-left: 246px;
     padding-top: 40px;
     gap: 100px;
 }
@@ -57,18 +56,16 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding-left: 246px;
-    padding-right: 245px;
     padding-bottom: 128px;
 }
 
 .general-container h1 {
-    padding-left: 403px;
     font-size: 30px;
     font-weight: 500;
     line-height: 42px;
     letter-spacing: 0em;
     color: #F6F6F6;
+    text-align: center;
 }
 
 .left-content h1 {
@@ -144,23 +141,20 @@ ul {
     .main-section-law {
         min-height: 1434px;
         background-image: url(../img/LawPageView-1440px-BG.svg);
+        padding-inline: 100px;
     }
 
     .left-content {
-        padding-left: 100px;
         gap: 50px;
     }
 
     .general-container h1 {
-        padding-left: 428px;
         font-size: 24px;
         font-weight: 500;
         line-height: 34px;
     }
 
     .general-container {
-        padding-left: 100px;
-        padding-right: 98px;
         gap: 40px;
     }
 
@@ -183,29 +177,26 @@ ul {
     .main-section-law {
         min-height: 1398px;
         background-image: url(../img/LawPageView-1280px-BG.svg);
+        padding-inline: 100px;
     }
 
     .left-content {
-        padding-left: 100px;
         gap: 50px;
         padding-top: 45px;
     }
 
     .general-container h1 {
-        padding-left: 348px;
         font-size: 24px;
         font-weight: 500;
         line-height: 34px;
     }
 
     .general-container {
-        padding-left: 100px;
-        padding-right: 100px;
         gap: 35px;
     }
 
     .main-law-desk ul {
-        padding: 50px 13.5px;
+        padding: 50px 16px;
         gap: 20px;
     }
 
@@ -240,6 +231,7 @@ ul {
     .main-section-law {
         min-height: 1295px;
         background-image: url(../img/LawPageView-968px-BG.svg);
+        padding-inline: 100px;
     }
 
     .all-law {
@@ -247,26 +239,21 @@ ul {
     }
 
     .left-content {
-        padding-left: 100px;
         gap: 50px;
         padding-top: 60px;
     }
 
     .general-container {
-        padding-left: 100px;
-        padding-right: 100px;
         padding-bottom: 68px;
         gap: 30px;
     }
 
     .main-law-desk ul {
-        padding: 50px 0px;
-        padding-left: 16px;
+        padding: 50px 16px;
         gap: 26px;
     }
 
     .general-container h1 {
-        padding-left: 204px;
         font-size: 20px;
         font-weight: 500;
         line-height: 30px;
@@ -318,6 +305,7 @@ ul {
     .main-section-law {
         min-height: 1424px;
         background-image: url(../img/LawPageView-678px-BG.svg);
+        padding-inline: 100px;
     }
 
     .all-law {
@@ -333,7 +321,6 @@ ul {
     }
 
     .left-content {
-        padding-left: 100px;
         gap: 50px;
         padding-top: 60px;
     }
@@ -345,8 +332,6 @@ ul {
     }
 
     .general-container {
-        padding-left: 100px;
-        padding-right: 98px;
         padding-bottom: 76px;
         gap: 30px;
     }
@@ -356,8 +341,7 @@ ul {
     }
 
     .main-law-desk ul {
-        padding: 26px 0px;
-        padding-left: 16px;
+        padding: 26px 16px;
         gap: 24px;
     }
 
@@ -382,11 +366,39 @@ ul {
 
 /* Style for 678px-428px END */
 
+
+
+
+@media only screen and (max-width: 520px) and (min-width: 428px){
+    .main-section-law {
+        padding-inline: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Style for 428px-321px START */
 @media only screen and (max-width: 428px) and (min-width: 321px) {
     .main-section-law {
         min-height: 1652px;
         background-image: url(../img/MobileLawPage-428px-BG.svg);
+        padding-inline: 16px;
     }
 
     .all-law {
@@ -394,20 +406,17 @@ ul {
     }
 
     .left-content {
-        padding-left: 16px;
         padding-top: 60px;
     }
 
     .general-container h1 {
-        padding-left: 16px;
         font-size: 20px;
         font-weight: 500;
         line-height: 30px;
+        text-align: left;
     }
 
     .general-container {
-        padding-left: 0;
-        padding-right: 0;
         padding-bottom: 0;
         gap: 30px;
     }
@@ -416,10 +425,11 @@ ul {
     .main-law-desk {
         min-height: 1460px;
         border-radius: 0px;
+        background: unset;
     }
 
     .main-law-desk ul {
-        padding: 50px 16px;
+        padding: 50px 0px;
         gap: 22px;
     }
 
@@ -458,11 +468,21 @@ ul {
 
 /* Style for 320px-200px START */
 
-
-@media only screen and (max-width: 320px) and (min-width: 200px) {
+.hhnone{
+    display: none;
+}
+@media only screen and (max-width: 320px) {
     .main-section-law {
         min-height: 1944px;
         background-image: url(../img/MobileLawPage-320px-BG.svg);
+        padding-inline: 16px;
+    }
+    .hhnone{
+        display: inline;
+        font-size: 17px;
+    }
+    .HHblock{
+        display: none;
     }
 
     .all-law {
@@ -470,21 +490,18 @@ ul {
     }
 
     .left-content {
-        padding-left: 16px;
         padding-top: 38px;
     }
 
     .general-container h1 {
         width: 200px;
-        padding-left: 16px;
         font-size: 20px;
         font-weight: 500;
         line-height: 30px;
+        text-align: left;
     }
 
     .general-container {
-        padding-left: 0;
-        padding-right: 0;
         padding-bottom: 0;
         gap: 40px;
     }
@@ -493,10 +510,11 @@ ul {
     .main-law-desk {
         min-height: 1460px;
         border-radius: 0px;
+        background: unset;
     }
 
     .main-law-desk ul {
-        padding: 50px 16px;
+        padding: 50px 0px;
         gap: 20px;
     }
 
@@ -537,3 +555,13 @@ ul {
 }
 
 /* Style for 320px-200px END */
+
+
+
+@media only screen and (max-width: 300px){
+    .main-law-desk ul li h4 {
+        max-width: 446px;
+        font-size: 15px;
+    }
+
+}

@@ -4,10 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-@font-face { 
-    font-family: "Montserratarm-Regular"; 
-    src: url(../fonts/Montserratarm-Regular/Montserratarm-Regular.otf); 
-  }
+
+@font-face {
+    font-family: "Montserratarm-Regular";
+    src: url(../fonts/Montserratarm-Regular/Montserratarm-Regular.otf);
+}
 
 
 ul {
@@ -15,7 +16,7 @@ ul {
 }
 
 .pageHeader {
- 
+
     width: 100%;
     height: 96px;
     display: flex;
@@ -66,7 +67,7 @@ ul {
 }
 
 .head-innDv2 ul li a {
-   
+
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
@@ -115,8 +116,13 @@ ul {
 .innDv3-left:hover {
     cursor: pointer;
     background: #FFB25F;
-    border: 1px solid #FFB25F
+    border: none;
 }
+
+.innDv3-left:focus {
+    border: 1px solid #FF7233;
+}
+
 
 .innDv3-left:hover span {
     color: #001447;
@@ -202,12 +208,14 @@ linear-gradient(0deg, #FF7233, #FF7233);
     box-shadow: 0px 4px 12px 0px #0000000A;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
 }
+
+
 
 .openDv div {
     width: 100%;
-    height: 38px;
+    height: 34px;
     display: flex;
     padding-inline: 8px;
     justify-content: space-between;
@@ -273,7 +281,7 @@ linear-gradient(0deg, #FF7233, #FF7233);
     justify-content: space-between;
 }
 
-.head-innDv32 {
+.head-innDv32 {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
     max-width: 110px;
     width: 100%;
     height: 36px;
@@ -373,7 +381,8 @@ linear-gradient(0deg, #FF7233, #FF7233);
     color: #FF7233;
 
 }
-.head-innDv2 a{
+
+.head-innDv2 a {
     text-transform: uppercase;
 }
 
@@ -383,6 +392,7 @@ linear-gradient(0deg, #FF7233, #FF7233);
     display: flex;
     flex-direction: column;
     padding-top: 30px;
+    gap: 20px;
 }
 
 .botTop {
@@ -422,11 +432,12 @@ linear-gradient(0deg, #FF7233, #FF7233);
 .topRight:hover {
     cursor: pointer;
 }
-.menuOpener{
+
+.menuOpener {
     display: none;
 }
 
-.logono{
+.logono {
     display: none;
 }
 
@@ -494,8 +505,8 @@ linear-gradient(0deg, #FF7233, #FF7233);
     height: 477px;
     background-image: url(../img/Footer.svg);
     background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
     padding-inline: 245px;
     display: flex;
     justify-content: center;
@@ -591,8 +602,9 @@ linear-gradient(0deg, #FF7233, #FF7233);
     height: 100%;
     display: flex;
     justify-content: flex-end;
-    
+
 }
+
 .topMid {
     max-width: 621px;
     width: 100%;
@@ -688,7 +700,7 @@ linear-gradient(0deg, #FF7233, #FF7233);
     height: 100%;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .rightTop {
@@ -714,6 +726,29 @@ linear-gradient(0deg, #FF7233, #FF7233);
     width: 100%;
     height: 100%;
     padding-left: 10px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.rightTop input:hover {
+    border: 2px solid #ffb25f;
+}
+
+.rightTop:disabled {
+    background: linear-gradient(0deg, #BDBDBD, #BDBDBD),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 2px solid #BDBDBD;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BDBDBD;
+}
+
+
+
+.rightTop input:focus {
+    border: 2px solid #FF7233;
+    outline: none;
 }
 
 .rightTop button {
@@ -740,6 +775,7 @@ linear-gradient(0deg, #FF7233, #FF7233);
     line-height: 22px;
     letter-spacing: 0em;
     color: #FF7233;
+    border-radius: 1px 10px 10px 0px;
 }
 
 
@@ -828,14 +864,16 @@ linear-gradient(0deg, #FF7233, #FF7233);
     letter-spacing: 0em;
     color: #FFFFFF;
 }
-.ibotInn ul{
+
+.ibotInn ul {
     max-width: 320px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     gap: 24px;
 }
-.ibotInn ul li a{
+
+.ibotInn ul li a {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -845,25 +883,28 @@ linear-gradient(0deg, #FF7233, #FF7233);
 
 
 
-.logores14{
-    display: none;
-}
-.logores12{
-    display: none;
-}
-.footLogo9{
+.logores14 {
     display: none;
 }
 
-.brdis{
+.logores12 {
+    display: none;
+}
+
+.footLogo9 {
+    display: none;
+}
+
+.brdis {
     display: none;
 }
 
 
-.brEnd{
+.brEnd {
     display: none;
 }
-.footLogo4{
+
+.footLogo4 {
     display: none;
 }
 
